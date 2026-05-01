@@ -8,7 +8,14 @@
   <meta name="description" content="Civic Lens is an independent news organization committed to unbiased reporting, investigative journalism, and truth-driven storytelling.">
   <meta name="author" content="Civic Lens">
 
-  <!-- TODO: ADD Open Graph Meta for title, description, image, url, type -->
+  <!-- ADD Open Graph Meta for title, description, image, url, type -->
+  <meta property="og:title" content="Civic Lens">
+  <meta property="og:description" content="And independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling.">
+  <meta property="image" content="image/civiclenslogo.png">
+
+  <meta property="url" content="http://www.civic.lens.org/home">
+  <meta property="type" content="website">
+
 
   <!-- ADD link to stylesheet -->
   <link rel="stylesheet" href="styles.css">
@@ -138,11 +145,11 @@
     <h2 id="alerts">Stay Informed. Stay Empowered.</h2>
     <p>Receive text messages with the news you want to know.</p>
 
-    <form action="post" method="https://wp.zybooks.com/form-viewer.php">
-      <section id="info"><div><label for="name">Name</label>
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+      <div id="info"><div><label for="name">Name</label>
       <input type="text" id="name" name="name"></div>
       <div><label for="phone">Mobile</label>
-      <input type="tel" id="phone" name="phone"></div></section>
+      <input type="tel" id="phone" name="phone"></div></div>
 
       <fieldset>
         <legend>Notification Preferences</legend>
